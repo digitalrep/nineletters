@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <title>Nineletters</title>
+  <link rel="stylesheet" type="text/css" media="screen" href="css/nineletters.css" />  
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/nineletters.js"></script>
+</head>
+<body>
+
+  <div class="modal">
+  </div>
+	  
+  <h1>Nine Letters</h1>	  
+	  
+  <div id='rules'>
+	<h2>Rules</h2>
+	<p>
+	  Each word must contain no less 
+	  than <strong>four</strong> letters and no more than
+	  <strong>nine</strong> letters. 
+	</p>
+	<p>
+	  The central letter <strong>must</strong> be 
+	  used in each word. 
+	</p>
+	<p>
+	  Each letter can only be used <strong>once</strong>.
+	</p>
+	<p align='right'>
+      <a href="#" id="close">Close</a>	  
+    </p>
+  </div>		
+
+  <h2>Timer: </h2> <div id="time"></div> 
+  <h2>Score: </h2> <div id="score"></div> 
+  <h2>Words Left: </h2> <div id="words"></div>  
+	  
+  <div class="puzzle">
+	<h2>Enter word:</h2>
+	<p>
+	  <span id="chosenword">
+	    <input type="text" id="yourword" />
+		<br><br>
+		<button class="button-link" id="checkword">Enter Word</button>
+		<button class="button-link" id="shuffleword">Shuffle</button>
+		<button class="button-link" id="clearword">Clear Word</button>
+	  </span>
+	  <table class="puz">
+	    <tr>
+	      <td id='letter0'></td>			  
+		  <td id='letter1'></td>
+		  <td id='letter2'></td>
+        </tr>
+		<tr>
+		  <td id='letter3'></td>
+		  <td id='middleletter'></td>
+		  <td id='letter4'></td>
+        </tr>
+		<tr>
+		  <td id='letter5'></td>			  
+		  <td id='letter6'></td>
+		  <td id='letter7'></td>		  
+		</tr>
+	  </table>
+	  <br><span id="response"></span>
+	</p>
+  </div>	
+  <div id="answers">
+  </div>
+  
+</body>
+</html>

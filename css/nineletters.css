@@ -1,0 +1,74 @@
+body
+{
+  padding: 4px;
+  width: 240px;
+}
+.button-link
+{
+  background: #293033;
+  border: solid 1px #000;
+  border-radius: 4px 4px 4px 4px;
+  box-shadow: 0 1px 1px #aaa;
+  color: #fff;
+  padding: 6px 7px;
+  text-decoration: none;
+  text-shadow: 0 -1px 0 #aaa;
+}
+.button-link:hover 
+{
+  background: #1982d1;
+  border: solid 1px #2A4E77;
+  text-decoration: none;
+}
+.puz td
+{
+  padding: 33px;
+  border: solid 1px #000;
+  background: MintCream;
+}
+#middleletter
+{
+  background: #b4c9d9;
+}
+.modal 
+{ 
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  height: 100%;
+  width: 100%;
+  background: rgba( 255, 255, 255, .8 ) url('../images/ajax-loader.gif') 50% 50% no-repeat;
+}
+body.loading 
+{
+  overflow: hidden;   
+}
+body.loading .modal 
+{
+  display: block;
+}
+h1
+{
+  font-size: 16px;
+  text-shadow: 1px 1px 3px #ccc;
+}
+h2
+{
+  font-size: 14px;
+  text-shadow: 1px 1px 3px #ccc;
+}
+#rules,
+#answers
+{
+  border: solid 1px #000;
+  padding: 4px;
+}
+#answers
+{
+  min-height: 40px;
+}
+#yourword
+{
+  padding: 4px;
+  font-size: 18px;
+}
