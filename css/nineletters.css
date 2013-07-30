@@ -2,6 +2,7 @@ body
 {
   padding: 4px;
   width: 240px;
+  font-family: Tahoma, sans-serif;
 }
 .button-link
 {
@@ -20,11 +21,15 @@ body
   border: solid 1px #2A4E77;
   text-decoration: none;
 }
-.puz td
+#puz td
 {
   padding: 33px;
   border: solid 1px #000;
   background: MintCream;
+}
+#puz
+{
+  margin-bottom: 8px;
 }
 #middleletter
 {
@@ -71,4 +76,10 @@ h2
 {
   padding: 4px;
   font-size: 18px;
+}
+#close
+{
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 4px;
 }

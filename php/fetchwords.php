@@ -8,16 +8,15 @@
 	{
       $randwordnum = rand(0, 24874);
       $randletternum = rand(0, 8);
-      $nineletterwords = file("../txt/9letterwords.txt");
+      $nineletterwords = file("http://127.0.0.1/digitalrepinfo/txt/9letterwords.txt");
 	  $this->word = $nineletterwords[$randwordnum];
-      $word2 = $this->word;
-      $this->letter = substr($word2, $randletternum, 1);
-	  $wordlist = file("../txt/new_wordlist.txt");
+	  $this->letter = substr($this->word, $randletternum, 1); 
+	  $wordlist = file("http://127.0.0.1/digitalrepinfo/txt/new_wordlist.txt");
 	  for($i=0;$i<count($wordlist);$i++)
       {
 	    $letters = str_split(trim($wordlist[$i]));
 	    $wordy = str_split($this->word);
-	    if($this->itmatches($wordy, $letters) == true)
+	    if($this->matches($wordy, $letters))
 	    {
 	      $pos = array_search($this->letter, $letters);
 	      if($pos !== false)
@@ -28,7 +27,7 @@
       }
 	}
 	
-	private function itmatches($word, $letters)
+	private function matches($word, $letters)
 	{
 	  for($i=0;$i<count($letters);$i++)
 	  { 
