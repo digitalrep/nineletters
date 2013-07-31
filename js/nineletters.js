@@ -42,7 +42,7 @@ $(function()
   $.ajax(
   {
 	type: 'POST',
-	url: "http://127.0.0.1/digitalrepinfo/php/fetchwords.php",
+	url: "../php/fetchwords.php",
 	dataType: 'json'
   }).done(function(data)
   {

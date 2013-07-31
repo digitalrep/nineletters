@@ -1,4 +1,4 @@
-DigitalRepInfo Jquery Fader
+DigitalRepInfo Nine Letters
 ===========================
 
 Included Files:
