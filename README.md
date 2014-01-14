@@ -16,5 +16,5 @@ Included Files:
 
 Live demo:
 ----------
-http://www.digitalrep.info/samples/view/nineletters
+http://www.digitalrep.info/samples/nineletters.php
 
