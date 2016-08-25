@@ -13,8 +13,3 @@ Included Files:
   <tr><td>Text Files:</td><td>txt/9letterwords.txt</td></tr>
   <tr><td>Text Files:</td><td>txt/new_wordlist.txt</td></tr>
 </table>
-
-Live demo:
-----------
-http://www.digitalrep.info/samples/nineletters.php
-
