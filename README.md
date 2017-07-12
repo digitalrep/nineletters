@@ -1,4 +1,4 @@
-DigitalRepInfo Nine Letters
+Nine Letters
 ===========================
 
 Included Files:
